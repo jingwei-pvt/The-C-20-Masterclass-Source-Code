@@ -1,6 +1,7 @@
 #include <iostream>
 #include <iomanip>
 
+//https://en.cppreference.com/w/cpp/io/manip
 
 int main(){
 

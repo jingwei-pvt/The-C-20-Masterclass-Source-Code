@@ -1,6 +1,8 @@
 #include <iostream>
 
-
+ //Braced initializers
+ //Functional Initialization
+ //Assignment notation
 int main(){
 
     //Braced initializers

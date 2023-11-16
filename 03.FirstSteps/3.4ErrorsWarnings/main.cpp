@@ -8,6 +8,6 @@ int main(){
    //Run time error
    int value = 7/0;
    std::cout << "value : " << value << std::endl;
-
+    //compile warnings
     return 0;
 }

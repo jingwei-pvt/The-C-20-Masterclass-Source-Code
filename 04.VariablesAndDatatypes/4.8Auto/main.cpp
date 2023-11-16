@@ -3,16 +3,16 @@
 
 int main(){
 
-	auto var1 {12};
-    auto var2 {13.0};
-    auto var3 {14.0f};
-    auto var4 {15.0l};
-    auto var5 {'e'};
+	auto var1 {12};     //int 4B
+    auto var2 {13.0};   //double 8B
+    auto var3 {14.0f};  //float 4B
+    auto var4 {15.0l};  //long double: 16B
+    auto var5 {'e'};    // char 1B
     
     //int modifier suffixes
-    auto var6 { 123u}; // unsigned
-    auto var7 { 123ul}; //unsigned long
-    auto var8 { 123ll}; // long long
+    auto var6 { 123u}; // unsigned int 4B
+    auto var7 { 123ul}; //unsigned long int 8B
+    auto var8 { 123ll}; // long long int 8B
 
     std::cout << "var1 occupies : " << sizeof(var1) << " bytes" << std::endl;
     std::cout << "var2 occupies : " << sizeof(var2) << " bytes" << std::endl;
@@ -25,3 +25,4 @@ int main(){
    
     return 0;
 }
+// https://www.geeksforgeeks.org/difference-between-long-int-and-long-long-int-in-c-cpp/

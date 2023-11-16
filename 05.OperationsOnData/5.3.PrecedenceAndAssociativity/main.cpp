@@ -1,6 +1,7 @@
 #include <iostream>
 
-
+//precedence (you xian quan)
+//Associativity (jie he xing)
 int main(){
 
     int a {6};

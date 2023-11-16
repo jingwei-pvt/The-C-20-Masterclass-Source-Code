@@ -9,3 +9,6 @@ int main(){
     std::cout << "value : " << value << std::endl;
     return 0;
 }
+//core features: int main(){... }, which is the rule of Cpp
+//standard library: like iostream
+//STL: Standard Templete Library of C++ 
