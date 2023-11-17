@@ -1,5 +1,11 @@
 #include <iostream>
 #include <limits>
+//More info : https://en.cppreference.com/w/cpp/types/numeric_limits
+
+//                                      float               signed int
+//std::numeric_limits<TPYE>::max()      maximum positive    
+//std::numeric_limits<TPYE>::min()      minimum positive
+//std::numeric_limits<TPYE>::lowest()   lowest  negative    -(none)
 
 int main(){
 
